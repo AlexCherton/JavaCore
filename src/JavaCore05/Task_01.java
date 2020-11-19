@@ -14,7 +14,6 @@ public class Task_01 {
 }
 
 class Car {
-    // у класса могут быть поля и класс может совершать действия через методы
     private String model;
     private int yearOfManufactory;
     private String color;
