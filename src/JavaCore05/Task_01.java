@@ -21,7 +21,7 @@ class Car {
 
     public void setModel(String modelName) {
         if (modelName.isEmpty()) {
-            System.out.println("Выввели пустое наименование модели");
+            System.out.println("Вы ввели пустое наименование модели");
         } else {
             model = modelName;
         }
@@ -29,7 +29,7 @@ class Car {
 
     public void setColor(String colorName) {
         if (colorName.isEmpty()) {
-            System.out.println("Выввели пустое наименование цвета");
+            System.out.println("Вы ввели пустое наименование цвета");
         } else {
             color = colorName;
         }
@@ -38,7 +38,7 @@ class Car {
 
     public void setYearOfManufactory(int manufactoryYear) {
         if (manufactoryYear < 0) {
-            System.out.println("Выввели отрицательный возраст");
+            System.out.println("Вы ввели отрицательный год выпуска");
         } else {
             yearOfManufactory = manufactoryYear;
         }
